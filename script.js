@@ -20,7 +20,6 @@ function startQuiz() {
 }
 
 var answerSpot0 = document.querySelector("#answerSpace1");
-var answerSpot0 = document.querySelector("#answerSpace1");
 var answerSpot1 = document.querySelector("#answerSpace2");
 var answerSpot2 = document.querySelector("#answerSpace3");
 var answerSpot3 = document.querySelector("#answerSpace4");
