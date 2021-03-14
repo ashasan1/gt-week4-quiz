@@ -93,7 +93,7 @@ var submitBtn = document.querySelector("#submit");
 currentQuestion = 0;
 currentAnswers = 0;
 
-var secondsLeft = 30;
+var secondsLeft = 60;
 var score = document.querySelector("#score");
 var scoreCount = 0;
 
