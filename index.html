@@ -10,8 +10,7 @@
 <body>
 
    
-    <div>
-
+   <div id="game">
         <div id="question-container"></div class="hide">
         <div id="question">Question</div>
         <div id="answer-buttons" class="btn-grid">
@@ -27,7 +26,6 @@
             <button id="next-btn" class="next-btn btn hide">Next</button>
         </div>
 
-    </div>
     <div class= "timer-div">
 
         <h1 id="timer-h1"></h1>
@@ -35,6 +33,40 @@
     </div>
     <div>
         <h1 id="score"></h1>
+        
+    </div>
+
+   </div>
+
+       
+
+    <div id= "high-score-container">
+        <form>
+            <h1>Your Highscore</h1>
+            <h1 id="highscore"></h1>
+            <label for="username">Username</label>
+            <select id="username-options">
+                <option value="UserA">User A</option>
+                <option value="UserB">User B</option>
+                <option value="UserC">User C</option>
+                <option value="UserC">User D</option>
+                <option value="UserC">User E</option>
+             </select>   
+            <button id="submit">Submit</button>
+            <!-- <input id="user-name" name ="username" type="text">
+            <input id ="submit" type= "submit" value="Submit"> -->
+        </form>
+
+         <div>
+                 <h1>Last Score</h1>
+                 <h2 id="last-score"></h2>
+                 <p>User: <span id="saved-user"></span></p>
+                 <p>Last Score: <span id="saved-score"></span></p>
+                 
+                 
+
+             </div>
+            
     </div>
 
     <script src= "./script-3.js"></script>
