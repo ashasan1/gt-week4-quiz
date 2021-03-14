@@ -78,6 +78,7 @@ var questionElement = document.querySelector("#question");
 var timePlace = document.querySelector("#timer-h1");
 var questionSpot = document.querySelector("#question");
 var game = document.querySelector("#game");
+var buttonsSpot = document.querySelector("#answer-buttons");
 
 
 var answerBtn1 = document.querySelector("#answerBtn1");
@@ -99,6 +100,7 @@ var scoreCount = 0;
 
 nextButton.setAttribute("style", "display:none");
 highScoreCont.setAttribute("style", "display:none");
+buttonsSpot.setAttribute("style", "display:none");
 
 function setMyScore() {
     score.textContent = scoreCount;
@@ -110,6 +112,7 @@ startButton.addEventListener("click", startQuiz);
 
 function startQuiz() {
     nextButton.setAttribute("style", "display:block");
+    buttonsSpot.setAttribute("style", "display:block");
     
     showQuestion();
     setAnswerButtons();
